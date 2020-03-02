@@ -163,6 +163,71 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <h1>Contact us!</h1>
+        <div class="row">
+            <form  class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">
+                            account_circle
+                        </i>
+                        <input type="text" class="validate" placeholder="Name" id="first_name">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">
+                            account_circle
+                        </i>
+                        <input type="text" class="validate"  id="last_name">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">
+                            lock
+                        </i>  
+                        <input type="password" id="password" class="password">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">
+                            mail
+                        </i>  
+                        <input type="email" id="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <a href="#" style=" background-color:darkcyan;color: white;" class="modal-action modal-close waves-effect waves-green btn-flat">Send</a>
+            
+            </form>
+        </div>
+        </div>
+        
+        <footer class="footer-page">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">
+                        More information here
+                    </h5>
+                    <p class="grey-text text-lighten-4">n summer I have to go by bicycle when there is a traffic jam. It takes about an hour and a half. It’s a bit long but much faster than walking. I have not to complain too much because the weather forecast is good for this week.</p>
+                </div>
+                <div class="col l4 offset-12 s12">
+                    <h5 class="white-text" style="margin-left: 50px;">
+                        Links to useful articles
+                    </h5>
+                    <ul style="margin-left: 50px;">
+                        <li><a href="#" class="grey-text text-lighten-3">About us</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Our Feature</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">How contact with us?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
    
     <div class="footer-copyright">
         <div class="container">
@@ -181,6 +246,21 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> 
     
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $('.modal').modal({
+                opacity:0.8,
+            });
+            $('.parallax').parallax();
+            $(".carousel.carousel-slider").carousel({
+                fullWidth:true,
+                indicators:true,
+                duration:500,
+    
+            });
+        });
+    </script>   
     
     
     <script>
