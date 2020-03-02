@@ -1,0 +1,18 @@
+nav{
+    background-color: #803c42;
+}
+
+footer{
+    background-color: #803c42;
+    
+}
+.footer-copyright{
+    background-color:#803c52 ;
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+    z-index: 990;
+    
+  }
