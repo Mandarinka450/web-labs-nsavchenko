@@ -1,0 +1,18 @@
+nav{
+    background-color: rgba(222, 222, 60, 1);
+}
+
+footer{
+    background-color: rgba(222, 222, 60, 1);
+    
+}
+.footer-copyright{
+    background-color:#803c52 ;
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+    z-index: 990;
+    
+  }
