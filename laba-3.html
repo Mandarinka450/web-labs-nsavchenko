@@ -42,6 +42,56 @@
             <a href="#three!" class="carousel-item"><img src="https://wallup.net/wp-content/uploads/2016/03/03/317512-silhouette-photography-Superman-childhood_dreams-500px-sunset-clouds-superhero-heroes-DC_Comics-cape.jpg" alt=""></a>
         </div>
     </div>
+    <div class="section white">
+        <div class="row container">
+                <h1  class="center-align " style="margin-top: -20px;" >
+                    <span class="letter">M</span>
+                    <span class="letter">A</span>
+                    <span class="letter">N</span>
+                    <span class="letter">D</span>
+                    <span class="letter">A</span>
+                    <span class="letter">R</span>
+                    <span class="letter">I</span>
+                    <span class="letter">N</span>
+                    <span class="letter">K</span>
+                    <span class="letter">A</span>
+                    
+                    </h1>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Our advantages</h1>
+        <div class="row">
+            <div class="col xl3 l4 m6 center-align">
+                <img src="https://imageog.flaticon.com/icons/png/512/608/608953.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" width="150px" height="80px">
+                <h4>Sociability</h4>
+                <p>Professional communication skills aim for success. Sociability and stress resistance allow you to open up, get rid of complexion, shyness. They give confidence and independence, because a person will always find a language with others, regardless of what is happening. This is a pleasure from communication, it is an opportunity for self-development and implementation in various fields.</p>
+            </div>
+            <div class="col xl3 l4 m6 center-align">
+                <img src="https://im0-tub-ru.yandex.net/i?id=9da02f25d834134cbc70749307015b91&n=13" alt="" width="150px" height="80px">
+                <h4>Confidence</h4>
+                <p>Confidence is a state of mind that expresses a lack of fear of mistakes, a desire for infallibility in general. Confidence is freedom from doubt. Self-confidence is an adequate assessment of one’s skills and objective self-esteem, in which success in overcoming obstacles and achieving a goal becomes more highly probable.</p>
+            </div>
+            <div class="col xl3 l4 m6 center-align">
+                <img src="https://imageog.flaticon.com/icons/png/512/306/306893.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" width="150px" height="80px">
+                <h4>Experience</h4>
+                <p>More importantly, it pushed me to change my life and fulfill my dream - to leave the company where I got a job last year and move to New York.
+    
+                    Any experience brings with it a mistake or triumph, as well as an understanding of self. Experience helps us understand our thoughts, understand what kind of people we want to see next to us, and ultimately find what makes us happy.
+    
+                </p>
+            </div>
+            <div class="col xl3 l4 m6 center-align">
+                <img src="https://imageog.flaticon.com/icons/png/512/82/82668.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" width="150px" height="80px">
+                <h4>Aspiration</h4>
+                <p>Each of us feels the need to strive for something. Some are attracted to their goals, while others have a pronounced desire for excellence. Each of us strives - but where and why? We will talk about what aspiration is and understand what it is worth striving for.
+    
+                    The desire is an impulse to act, a persistent attraction to the new and unshakable determination.
+    
+                </p>
+            </div>
+        </div>
+    </div> 
    
     <div class="footer-copyright">
         <div class="container">
@@ -59,6 +109,27 @@
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> 
-   
+    
+    
+    
+    <script>
+        let animation = anime({
+        targets: '.letter',
+        opacity: 1,
+        translateY: 50, 
+        loop:true,
+        rotate: {
+        value: 360,
+        duration: 2500,
+        easing: 'easeInExpo'
+        
+        
+        }, 
+        scale: anime.stagger([0.7, 1], {from: 'center'}), 
+        delay: anime.stagger(100, {start: 1000}), 
+        translateX: [-10, 30]
+        
+        });                
+        </script>
     </body>
 </html>
